@@ -14,22 +14,19 @@ const Shop = () => {
             .then(res => res.json())
             .then(data => setMembers(data));
     }, [])
-
+    //using this state to update the selected member from user 
     const [newSelectedMember, setNewSelectedMember] = useState([]);
     // this function (down) will collect the data of the team member which will be selected by user
     const handleSelect = teamMember => {
         //first storing the data in our variable
         teamMember = teamMember.memberDetails;
-        //console.log(teamMember);
         //coppying previously clicked member and also adding newly selected member
         const clickedMember = [...newSelectedMember, teamMember];
         //now clikedMember(up) will contain the data of all the selected member till now
-        // console.log(clickedMember);
+
         return setNewSelectedMember(clickedMember);
     }
-    //console.log(newSelectedMember);
     return (
-
         <section className="container-fluid row mt-5 ">
             {/* as this container/section (up) will contain two section side by side we will use grid display to divide them their needed space */}
             {/* this div (down) will contain all the team member details */}
@@ -40,7 +37,6 @@ const Shop = () => {
             <div className="cart-container col-4 ">
                 <Cart selectedMember={newSelectedMember}></Cart>
             </div>
-
         </section>
     );
 };
