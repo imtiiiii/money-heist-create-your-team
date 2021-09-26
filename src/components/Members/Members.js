@@ -3,12 +3,11 @@ import React from 'react';
 import Member from '../Member/Member';
 import "./Members.css"
 const Members = (props) => {
-    const check = props.membersList;
-    console.log("check-> ", check);
+    const member = props.membersList;
     return (
-        <div>
+        <div className="row ">
             {
-                check.map(member => <Member details={member} key={member.id} ></Member>)
+                member.map(member => <Member details={member} key={member.id} ></Member>)
             }
         </div >
     );
