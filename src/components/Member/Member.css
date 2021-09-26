@@ -3,7 +3,7 @@
     font-family: 'Cinzel', serif;
 }
 .member-card{
-    height: 680px;
+    height: 880px;
 }
 
 .member-img{
@@ -15,4 +15,8 @@
     width: 100%;
     height: 300px;
     border-radius: 50%;
+}
+.details-hover:hover{
+    background-color:rgba(255, 7, 7, 0.212);
+    cursor: pointer;
 }

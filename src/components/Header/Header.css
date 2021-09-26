@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Yanone+Kaffeesatz:wght@500&display=swap');
 header{
-    background-color:pink;
+    background-color:rgba(255, 7, 7, 0.212);
+    /* background-color: transparent; */
+    opacity: 0.9;
     border-radius: 25px;
-    color: rgb(0, 0, 0);
-    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Abril Fatface', cursive;
+}
+.this-is-your-chance{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
