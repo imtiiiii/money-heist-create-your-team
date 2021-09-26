@@ -5,7 +5,7 @@ import "./Members.css"
 const Members = (props) => {
     const member = props.membersList;
     return (
-        <div className="row ">
+        <div className="row g-5">
             {
                 member.map(member => <Member details={member} key={member.id} ></Member>)
             }

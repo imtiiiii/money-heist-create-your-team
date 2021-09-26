@@ -16,15 +16,14 @@ const Shop = () => {
 
     return (
 
-        <section className="container-fluid row ">
+        <section className="container-fluid row mt-5 ">
             {/* as this container/section (up) will contain two section side by side we will use grid display to divide them their needed space */}
             {/* this div (down) will contain all the team member details */}
-            <div className="team-container col col-10">
-                <Members membersList={members} key={members.id}></Members>
-
+            <div className="team-container col col-8">
+                <Members membersList={members}></Members>
             </div>
             {/* this div (down) will contain all the cart details */}
-            <div className="cart-container col-2">
+            <div className="cart-container col-4">
 
             </div>
 
