@@ -1,5 +1,6 @@
 // this component will hold both team member and cart details
 import React, { Component, useEffect, useState } from 'react';
+import Members from '../Members/Members';
 import "./Shop.css"
 const Shop = () => {
     // as Shop is parent of both team and cart container , the data we need from json file will be called to this parent section so that both team and cart child can get the data from their parent
@@ -12,13 +13,14 @@ const Shop = () => {
             .then(res => res.json())
             .then(data => setMembers(data));
     }, [])
-    console.log(members);
+
     return (
 
-        <section className="container-fluid bg-ligt">
+        <section className="container-fluid ">
             {/* as this container/section (up) will contain two section side by side we will use grid display to divide them their needed space */}
             {/* this div (down) will contain all the team member details */}
-            <div className="team-container">
+            <div className="team-container ">
+                <Members membersList={members} key={members.id}></Members>
 
             </div>
             {/* this div (down) will contain all the cart details */}
