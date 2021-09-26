@@ -9,6 +9,7 @@ function App() {
       {/* /* calling header from header component folder  */}
       < Header ></Header>
       <main>
+        {/* calling shop from shop component */}
         <Shop></Shop>
       </main>
     </div >

@@ -7,7 +7,7 @@ import "./Header.css"
 const Header = () => {
     const totalBudhet = 15000;
     return (
-        <header className="container  text-center header py-3">
+        <header className="container-fluid  text-center header py-3">
             <h2>Want to make your own <span className="text-danger"> Money Heist </span>team ? </h2>
             <h4>This is your chance now !!!!</h4>
             <h4>Select now</h4>
