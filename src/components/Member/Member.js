@@ -1,8 +1,10 @@
 // this component will contain a single member details and return it to Members component where all team members data will be shown
 import React from 'react';
 import "./Member.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAd, faAddressCard, faCartArrowDown, faCoffee } from '@fortawesome/free-solid-svg-icons'
 const Member = (props) => {
-
+    const element = <FontAwesomeIcon icon={faAddressCard} />
     const memberDetails = props.details;
     //const memberDetailsArray = [memberDetails];
     //console.log(memberDetails);
@@ -26,7 +28,7 @@ const Member = (props) => {
                     <p>Salary: ${salary}</p>
                     <hr />
                 </div>
-                <button type="button" className="btn btn-outline-danger" onClick={() => props.selectBtn({ memberDetails })}>Select</button>
+                <button type="button" className="btn btn-outline-danger" onClick={() => props.selectBtn({ memberDetails })}>{element} Select</button>
             </div>
         </div>
     );
