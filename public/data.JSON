@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Álvaro Morte",
+        "role": "The Proffesor",
+        "born": "23 Feburuary,1975",
+        "nationality": "spanish",
+        "salary": 5000
+    },
+    {
+        "name": "Úrsula Corberó",
+        "role": "Tokyo",
+        "born": "August 11, 1989",
+        "nationality": "spanish",
+        "salary": 4000
+    },
+    {
+        "name": "Itziar Ituño",
+        "role": "Inspector Raquel Murillo",
+        "born": "June 18, 1974",
+        "nationality": "spanish",
+        "salary": 4000
+    },
+    {
+        "name": "Pedro Alonso",
+        "role": "Berlin",
+        "born": "June 21, 1971",
+        "nationality": "spanish",
+        "salary": 3500
+    },
+    {
+        "name": "Alba Flores",
+        "role": "Nairobi",
+        "born": "October 27, 1986",
+        "nationality": "spanish",
+        "salary": 3000
+    },
+    {
+        "name": "Enrique Arce",
+        "role": "Arturo Roman",
+        "born": "October 8, 1972",
+        "nationality": "spanish",
+        "salary": 4500
+    }
+]
