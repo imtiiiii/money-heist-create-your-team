@@ -8,4 +8,4 @@ About this webpage:
 * You can choose characters to include in your team
 * You will be given a budhet. So be careful whom to chose
 * Also you can see the number of member you selected for your team.
-
+## Thank you for visiting
